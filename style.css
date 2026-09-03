@@ -1,0 +1,191 @@
+/* =========================
+   ตั้งค่าพื้นฐานของเว็บไซต์
+   ========================= */
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* เปลี่ยนสีพื้นหลังตรงนี้ */
+  background-color: #f3e8ff;
+
+  /* สีตัวอักษร */
+  color: #333333;
+
+  /* รูปแบบตัวอักษร */
+  font-family: "Charm", cursive;
+
+  margin: 0;
+  padding: 20px;
+
+  min-height: 100vh;
+
+  /* ทำให้ Card อยู่ตรงกลางหน้าจอ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* =========================
+   ตกแต่ง Profile Card
+   ========================= */
+
+.profile-card {
+  background-color: white;
+
+  width: 100%;
+  max-width: 500px;
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* =========================
+   ตกแต่งรูป Profile
+   ========================= */
+
+.profile-image {
+  width: 160px;
+  height: 160px;
+
+  /* ทำให้รูปเป็นวงกลม */
+  border-radius: 50%;
+
+  /* ทำให้รูปไม่ยืด */
+  object-fit: cover;
+
+  /* ขอบรูป */
+  border: 5px solid #a78bfa;
+
+  margin-bottom: 15px;
+}
+
+/* =========================
+   ตกแต่งข้อความ
+   ========================= */
+
+h1 {
+  color: #7c3aed;
+  font-size: 32px;
+
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #8b5cf6;
+  font-size: 22px;
+
+  margin-top: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* =========================
+   ส่วนข้อมูล About
+   ========================= */
+
+.about-section {
+  text-align: left;
+
+  background-color: #faf5ff;
+
+  padding: 15px;
+
+  border-radius: 12px;
+
+  margin-bottom: 20px;
+}
+
+/* =========================
+   รายการงานอดิเรก
+   ========================= */
+
+ul {
+  text-align: left;
+
+  background-color: #faf5ff;
+
+  padding: 20px 20px 20px 40px;
+
+  border-radius: 12px;
+}
+
+li {
+  margin: 8px 0;
+}
+
+/* =========================
+   ตกแต่งปุ่ม
+   ========================= */
+
+.button {
+  display: inline-block;
+
+  background-color: #8b5cf6;
+
+  color: white;
+
+  font-size: 16px;
+
+  padding: 12px 24px;
+
+  margin-top: 15px;
+
+  border-radius: 10px;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+/* Hover เมื่อเอา Mouse วางบนปุ่ม */
+
+.button:hover {
+  background-color: #7c3aed;
+
+  /* ขยายปุ่มขึ้นเล็กน้อย */
+  transform: scale(1.05);
+}
+
+/* =========================
+   Responsive สำหรับมือถือ
+   ========================= */
+
+@media (max-width: 600px) {
+  body {
+    padding: 15px;
+  }
+
+  .profile-card {
+    padding: 20px;
+  }
+
+  .profile-image {
+    width: 130px;
+    height: 130px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}

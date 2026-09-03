@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>เกี่ยวกับฉัน</title>
+
+    <!-- ใช้ CSS ไฟล์เดียวกับหน้าแรก -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="profile-card">
+      <h1>เกี่ยวกับฉัน 👤</h1>
+
+      <div class="about-section">
+        <p>
+          <strong>ชื่อ:</strong>
+          ชนากานต์ รวยสันเที๊ยะ
+        </p>
+
+        <p>
+          <strong>ชื่อเล่น:</strong>
+          ปลื้ม
+        </p>
+
+        <p>
+          <strong>โรงเรียน / มหาวิทยาลัย:</strong>
+          มหาวิทยาลัยนเรศวร
+        </p>
+
+        <p>
+          <strong>แนะนำตัว:</strong>
+          สวัสดี
+        </p>
+      </div>
+
+      <h2>งานอดิเรกของฉัน 🎮</h2>
+
+      <!-- รายการงานอดิเรก -->
+      <ul>
+        <li>เล่นเกม</li>
+        <li>ฟังเพลง</li>
+        <li>ดูยูทูป</li>
+        <li>นอน</li>
+      </ul>
+
+      <h2>สิ่งที่ฉันชอบ ❤️</h2>
+
+      <p>ฉันชอบหมา</p>
+
+      <!-- ปุ่มสำหรับกลับหน้าแรก -->
+      <a href="index.html" class="button"> กลับหน้าแรก </a>
+    </div>
+  </body>
+</html>
